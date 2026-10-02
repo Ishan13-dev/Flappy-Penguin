@@ -269,3 +269,45 @@ body {
   position: absolute;
   margin-top: -58px;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .penguin {
+    width: 40vw;
+    height: 40vw;
+    margin-top: 5vh;
+  }
+
+  .sun {
+    width: 20vw;
+    height: 20vw;
+    top: -8vh;
+    right: -8vw;
+  }
+
+  .left-mountain,
+  .back-mountain {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .penguin {
+    width: 60vw;
+    height: 60vw;
+    margin-top: 5vh;
+  }
+
+  .sun {
+    width: 25vw;
+    height: 25vw;
+    top: -10vh;
+    right: -10vw;
+  }
+
+  .left-mountain,
+  .back-mountain {
+    width: 40vw;
+    height: 40vw;
+  }
+}
